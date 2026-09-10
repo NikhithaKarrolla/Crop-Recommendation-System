@@ -1,0 +1,6 @@
+import joblib
+
+joblib.dump(
+    rf,
+    "model/crop_recommendation_model.pkl"
+)
